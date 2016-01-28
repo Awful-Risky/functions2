@@ -53,7 +53,46 @@
 // console.log(testIt);
 
 //------------------------------------
-function 
+// var str = 'smtmrmimngm'
+// console.log(str);
+
+// function removeM (string) {
+// 	var array = string.split('');
+// 	for (var i = 0; i<array.length; i+=1) {
+// 		if (array[i] === 'm') {
+// 			array[i] = '';
+// 		}
+	
+// 	}
+// 	var newString = array.join('');
+// 	return newString;
+// }
+
+// testIt = removeM(str);
+// console.log(testIt);
+// console.log(str);
+
+//------------------------------------
+
+// var objName = {
+// name: 'Name',
+// age: '65',
+// place: 'Lima',
+// };
+
+//  function printObject (obj) {
+//  	for (var i in obj) {
+//  		console.log(i + ' is ' + obj[i]);
+//  	}
+//  }
+
+// printObject(objName);
+
+//------------------------------------
+
+
+
+
 
 
 // console.log(testIt);
@@ -62,10 +101,6 @@ function
 
 
 
-// console.log(testIt);
-
-//------------------------------------
-
 
 
 
@@ -75,9 +110,24 @@ function
 
 
 
+
+
+
 // console.log(testIt);
 
 //------------------------------------
+
+
+
+
+
+
+
+
+// console.log(testIt);
+
+//------------------------------------
+
 
 
 
