@@ -90,12 +90,26 @@
 
 //------------------------------------
 
+var str = 'aweiouy'
+function vowels (string) {
+	var array = string.split('');
+	console.log(array);
+	var newArray = array.filter(function doIT (element) {
+		var check = element.toLowerCase();
+		if (check === 'a' || check ===  'e' || check ===  'i' || check ===  'o' || check ===  'u') {
+				return true;
+		}
+		else {
+				return false;
+		}
+	});
+	return newArray;
+};
 
 
 
-
-
-// console.log(testIt);
+testVowels = vowels(str);
+console.log(testVowels);
 
 //------------------------------------
 
