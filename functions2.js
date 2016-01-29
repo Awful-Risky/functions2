@@ -90,34 +90,75 @@
 
 //------------------------------------
 
-var str = 'aweiouy'
-function vowels (string) {
-	var array = string.split('');
-	console.log(array);
-	var newArray = array.filter(function doIT (element) {
-		var check = element.toLowerCase();
-		if (check === 'a' || check ===  'e' || check ===  'i' || check ===  'o' || check ===  'u') {
-				return true;
-		}
-		else {
-				return false;
-		}
-	});
-	return newArray;
-};
+// var str = 'aweiouy'
+// function vowels (string) {
+// 	var array = string.split('');
+// 	console.log(array);
+// 	var newArray = array.filter(function doIT (element) {
+// 		var check = element.toLowerCase();
+// 		if (check === 'a' || check ===  'e' || check ===  'i' || check ===  'o' || check ===  'u') {
+// 				return true;
+// 		}
+// 		else {
+// 				return false;
+// 		}
+// 	});
+// 	return newArray;
+// };
 
 
 
-testVowels = vowels(str);
-console.log(testVowels);
+// testVowels = vowels(str);
+// console.log(testVowels);
 
 //------------------------------------
 
+// var arr1 = [1,1,2,2,3,3]
+// var arr2 = [1,1,2,3,4,5]
+
+// function twins (array) {
+// 	for ( i = 0; i < array.length-2; i+=2) {
+// 		if (array[i] !== array[i+1]) {
+// 			return false;
+// 		}                     
+// 	}
+// 	return true;
+// }
+// testIt = twins(arr1);
+// console.log(testIt);
+
+//------------------------------------
+
+// var booArr1 = [true, true]                       //true
+// var booArr2 = [false, false, false, true, false] //true
+// var booArr3 = []                                 //false
+// var booArr4 = [false, false]                     //false
+
+// function or (booleanArray) {
+// 	for (var i = 0; i<booleanArray.length; i++) {
+// 		if (booleanArray[i]===true) {
+// 			return true;
+// 		} 
+// 	}
+// 	return false;
+// }
 
 
 
+// testIt = or(booArr4);
+// console.log(testIt);
+
+//------------------------------------
+
+// arr = [1,1,2,2,3,3,4,4,5,5]
+
+// function unique (Array) {
+// 	var uniqueArray = _.uniq(Array);
+// 	return uniqueArray;
+// };
 
 
+// testIt = unique(arr)
 // console.log(testIt);
 
 //------------------------------------
@@ -127,9 +168,6 @@ console.log(testVowels);
 
 
 
-// console.log(testIt);
-
-//------------------------------------
 
 
 
@@ -138,9 +176,9 @@ console.log(testVowels);
 
 
 
-// console.log(testIt);
 
-//------------------------------------
+
+
 
 
 
